@@ -13,6 +13,7 @@ export default function Dashboard(){
     return (
         <div className='d-flex'>
             <SideBar setChosenOption={setOption} setNotesSelected={setNotesSelected}/>
+            <div>test</div>
             <div className='vr'/>
             <div className='col' style={{width: "100%"}}>
                 { (option == 0) && <HomePage/> }
